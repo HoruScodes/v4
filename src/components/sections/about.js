@@ -132,7 +132,15 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'JavaScript (ES6+)',
+    'HTML & CSS',
+    'Angular',
+    'Node.js',
+    'Java',
+    'WordPress',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +149,23 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Rahul, a software engineer based in Montréal, QC.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I enjoy developing things that make our life better, whether that be websites,
+              applications, or anything in between. My goal is to be successful enough to help those
+              who are in need and to contribute something to society.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              Shortly after getting my bachelor from from{' '}
+              <a href="https://www.bvmengineering.ac.in/">Birla Vishvakarma Mahavidyalaya</a>, I
+              joined the engineering team at{' '}
+              <a href="https://www.srkay.com">Srkay Consulting Group</a> at my hometown Surat, IN.
+              where I have worked on <a href="https://www.scikey.ai">Scikey</a> as a backend
+              developer(sometimes frontend too.), which is an ai based startup. after working there
+              for over a year, I came to Montréal, Canada to learn more at{' '}
+              <a href="https://www.collegelasalle.com/">Collège LaSalle</a>.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
