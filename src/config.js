@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'www.linkedin.com/in/rahulpipaliya',
+      url: 'https://linkedin.com/in/rahulpipaliya',
     },
     // {
     //   name: 'Codepen',
